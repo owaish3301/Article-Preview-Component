@@ -53,5 +53,5 @@ making the overlay better
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@ShadowKiD14](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@ShadowKiD14](https://www.frontendmentor.io/profile/ShadowKiD14)
 
