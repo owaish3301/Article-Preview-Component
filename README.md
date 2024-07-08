@@ -12,7 +12,7 @@ This is a solution to the [Article preview component challenge on Frontend Mento
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  
+
 ## Overview
 
 ### The challenge
@@ -53,5 +53,5 @@ making the overlay better
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@ShadowKiD14](https://www.frontendmentor.io/profile/yourusername)
 
