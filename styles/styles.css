@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(210, 46%, 95%);
+}
+
+.card-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 90%;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.card .img-container {
+  width: 100%;
+}
+.card .img-container img {
+  width: 100%;
+}
+.card .head {
+  padding: 20px;
+}
+.card .head #header {
+  font-size: 1.2rem;
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.card .head #content {
+  font-size: 1rem;
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  opacity: 0.5;
+}
+.card footer {
+  padding: 20px;
+  display: flex;
+  gap: 15px;
+}
+.card footer .profile-pic img {
+  border-radius: 50%;
+  width: 60px;
+}
+.card footer .author-info {
+  flex-grow: 1;
+  align-self: center;
+  width: -moz-max-content;
+  width: max-content;
+}
+.card footer .author-info #author-name {
+  font-size: 0.9rem;
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+}
+.card footer .author-info #publishing-date {
+  font-size: 0.8rem;
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  opacity: 0.5;
+}
+.card footer .share-btn {
+  width: 25px;
+  margin: auto;
+  align-self: center;
+}
+.card footer .share-btn img:hover {
+  cursor: pointer;
+}
+.card .share-preview {
+  display: none;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: hsl(217, 19%, 35%);
+}
+.card .share-preview .icons {
+  display: flex;
+  gap: 20px;
+}
+.card .share-preview .icons p {
+  letter-spacing: 5px;
+  color: white;
+  opacity: 0.5;
+  font-size: 1rem;
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+}
+.card .desktop-preview {
+  display: none;
+  border-radius: 8px;
+  width: -moz-max-content;
+  width: max-content;
+  background-color: hsl(217, 19%, 35%);
+  padding: 10px;
+  position: absolute;
+  right: 0%;
+  bottom: 20%;
+}
+.card .desktop-preview .icons {
+  display: flex;
+  gap: 5px;
+}
+.card .desktop-preview .icons p {
+  letter-spacing: 5px;
+  color: white;
+  opacity: 0.5;
+  font-size: 1rem;
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+}
+
+@media (min-width: 576px) {
+  .card {
+    max-width: 800px;
+    flex-direction: row;
+  }
+  .card .img-container {
+    height: auto;
+  }
+  .card .img-container img {
+    height: 100%;
+  }
+}/*# sourceMappingURL=styles.css.map */
